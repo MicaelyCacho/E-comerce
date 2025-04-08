@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(255, 172, 153, 0.8436624649859944) 100%);
+
+}
+
+
+.formulario {
+    display: flex;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+    border-style: outset;
+    border-color: rgb(255, 129, 215);
+    justify-items: center;
+    width: 70vw;
+    height: 80vh;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+
+
+
+}
+
+.abas {
+
+    background-color: rgb(255, 216, 235);
+    padding: 10px;
+    text-align: center;
+    height: 5vh;
+    width: 100vw;
+    gap: 15px;
+
+
+
+}
+
+
+.cardapio {
+    display: flex;
+    padding: 10px;
+    align-content: center;
+
+
+}
+
+.imgCardapio {
+    width: 15vw;
+    height: 30vh;
+    border-radius: 200px;
+}
+
+p {
+    text-decoration: aquamarine;
+}
+
+.caixaInput {
+    width: 50vw;
+    height: 10vh;
+    border-radius: 20px;
+    border-color: rgb(242, 105, 217);
+    padding-left: 10px;
+
+
+
+}
+
+hr {
+    margin: 30px;
+    border: none;
+}
+
+.tituloCardapio {
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+
+
+
+.cardapio2 {
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    margin-top: 50px;
+
+}
+
+
+.quemSomos {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 40px;
+
+}
+
+.tituloQuemSomos {
+    margin: 30px;
+}
+
+
+.imagensLocal {
+    width: 30vw;
+    height: 50vh;
+    border-radius: 30px;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+.lista {
+    display: flex;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 40px;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 50px;
+
+
+
+}
+
+.tituloLista {
+    margin: 30px;
+
+}
+
+.imgIcone {
+    width: 3vw;
+    height: 3vh;
+
+
+}
+
+.tituloTabela {
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+
+}
+
+.th {
+    margin: 10px;
+    border-color: black;
+    border-style: dotted;
+
+}
+
+thead {
+    background-color: #af4c99;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+
+}
+
+tbody {
+    background-color: rgb(237, 237, 237);
+}
+
+.tabela {
+    display: flex;
+    margin: 150px;
+    margin-top: 30px;
+}
+
+.login {
+    margin-top: 30px;
+    display: flex;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 30px;
+    border-style: outset;
+    border-color: rgb(255, 129, 215);
+    justify-items: center;
+    width: 70vw;
+    height: 80vh;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.btnEntrar {
+    width: 100px;
+    height: 70px;
+    background-color: #fb9ee7;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+.btnCadastrar {
+    width: 100px;
+    height: 70px;
+    background-color: #b6b6b6;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.textoLogin {
+    text-align: center;
+    color: rgb(74, 71, 71);
+    margin-top: 20px;
+}
+
+#visitante {
+    background-color: antiquewhite;
+    border: none;
+    text-decoration: underline;
+
+}
+
+.btnInsta {
+    width: 20vw;
+    height: 20vh;
+}
+
+.imgRedes {
+    width: 5vw;
+    height: 5vh;
+    margin-top: 10px;
+    justify-content: flex-end;
+
+}
+
+.logo {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+
+.tituloHome {
+    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.home {
+    display: flex;
+    justify-items: left;
+}
+
+.abasHome {
+    padding: 30px;
+    background-color: rgb(255, 216, 235);
+    text-align: center;
+    width: 30vw;
+    height: 100vh;
+
+}
+
+.HOME {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    align-items: start;
+    justify-items: left;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.imgIconeHome {
+    width: 7vw;
+    height: 7vh;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+
+.enviar {
+    background-color: #af4c99;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 20vw;
+}
